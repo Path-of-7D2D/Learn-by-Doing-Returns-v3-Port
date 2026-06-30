@@ -1,0 +1,16 @@
+<configs>
+
+
+	<set xpath="ui_display_info/item_display/item_display_info[@display_type='armorNerdOutfit']">
+		<display_entry name="dAttributeLevel" title_key="statMaxHealthBonus" display_leading_plus="true"/>
+	</set>
+	
+	<set xpath="ui_display_info/item_display/item_display_info[@display_type='armorNomadHelmet']">
+		<display_entry name="dCritResist" title_key="Infection Resistance" display_type="Percent"/>
+	</set>
+
+	<set xpath="ui_display_info/item_display/item_display_info[@display_type='clothingCigar']">
+		<display_entry name="BarteringBuying" title_key="statBarteringSellBuy" display_type="Percent" display_leading_plus="true"/>
+	</set>
+
+</configs>

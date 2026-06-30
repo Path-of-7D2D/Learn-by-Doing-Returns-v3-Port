@@ -1,0 +1,7 @@
+<configs>
+
+	<!-- V3 keeps the vanilla split skill detail windows. Learn By Doing only needs room for its ninth top-level skill category. -->
+	<setattribute xpath="windows/window[@name='windowSkillList']/rect[@name='content']/rect[@name='categoryHeader']/rect/grid[@name='categories']" name="cols">9</setattribute>
+	<remove xpath="windows/window[@name='windowSkillList']/rect[@name='content']/rect[@name='categoryHeader']/rect[@console_enabled='false']"/>
+
+</configs>

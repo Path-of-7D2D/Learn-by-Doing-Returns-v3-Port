@@ -1,0 +1,59 @@
+<configs>
+
+<!--Locks the basic ammo types behind learnable-->
+<setattribute xpath = "recipes/recipe[@name='ammo9mmBulletBall']" name="tags">workbenchCrafting, learnable</setattribute>
+<setattribute xpath = "recipes/recipe[@name='ammo44MagnumBulletBall']" name="tags">workbenchCrafting, learnable</setattribute>
+<setattribute xpath = "recipes/recipe[@name='ammo762mmBulletBall']" name="tags">workbenchCrafting, learnable</setattribute>
+<setattribute xpath = "recipes/recipe[@name='ammoShotgunShell']" name="tags">workbenchCrafting, learnable</setattribute>
+<setattribute xpath = "recipes/recipe[@name='ammoJunkTurretRegular']" name="tags">workbenchCrafting, learnable</setattribute>
+<!--unlocks basic foods-->
+<setattribute xpath = "recipes/recipe[@name='drinkJarCoffee']" name="tags">perkMasterChef</setattribute>
+<setattribute xpath = "recipes/recipe[@name='drinkJarGoldenRodTea']" name="tags">perkMasterChef</setattribute>
+<setattribute xpath = "recipes/recipe[@name='drinkJarRedTea']" name="tags">perkMasterChef</setattribute>
+<setattribute xpath = "recipes/recipe[@name='drinkJarYuccaJuice']" name="tags">perkMasterChef</setattribute>
+<setattribute xpath = "recipes/recipe[@name='foodBaconAndEggs']" name="tags">perkMasterChef</setattribute>
+<setattribute xpath = "recipes/recipe[@name='foodBakedPotato']" name="tags">perkMasterChef</setattribute>
+<setattribute xpath = "recipes/recipe[@name='foodBoiledMeat']" name="tags">perkMasterChef</setattribute>
+<setattribute xpath = "recipes/recipe[@name='foodCornOnTheCob']" name="tags">perkMasterChef</setattribute>
+<setattribute xpath = "recipes/recipe[@name='foodGrilledMeat']" name="tags">perkMasterChef</setattribute>
+<!--unlocks basic iron tools but locks them behind the workbench-->
+<setattribute xpath = "recipes/recipe[@name='gunBowT1WoodenBow']" name="craft_area">workbench</setattribute>
+<setattribute xpath = "recipes/recipe[@name='gunBowT1WoodenBow']" name="tags">learnable,workbenchCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='meleeWpnClubT1BaseballBat']" name="craft_area">workbench</setattribute>
+<setattribute xpath = "recipes/recipe[@name='meleeWpnClubT1BaseballBat']" name="tags">perkPummelPete,workbenchCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='meleeToolRepairT1ClawHammer']" name="craft_area">workbench</setattribute>
+<setattribute xpath = "recipes/recipe[@name='meleeToolRepairT1ClawHammer']" name="tags">workbenchCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='meleeToolAxeT1IronFireaxe']" name="craft_area">workbench</setattribute>
+<setattribute xpath = "recipes/recipe[@name='meleeToolAxeT1IronFireaxe']" name="tags">workbenchCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='meleeWpnSpearT1IronSpear']" name="craft_area">workbench</setattribute>
+<setattribute xpath = "recipes/recipe[@name='meleeWpnSpearT1IronSpear']" name="tags">perkJavelinMaster,workbenchCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='meleeWpnBladeT1HuntingKnife']" name="craft_area">workbench</setattribute>
+<setattribute xpath = "recipes/recipe[@name='meleeWpnBladeT1HuntingKnife']" name="tags">perkDeepCuts,workbenchCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='meleeToolPickT1IronPickaxe']" name="craft_area">workbench</setattribute>
+<setattribute xpath = "recipes/recipe[@name='meleeToolPickT1IronPickaxe']" name="tags">workbenchCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='meleeToolShovelT1IronShovel']" name="craft_area">workbench</setattribute>
+<setattribute xpath = "recipes/recipe[@name='meleeToolShovelT1IronShovel']" name="tags">workbenchCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='meleeWpnSledgeT1IronSledgehammer']" name="craft_area">workbench</setattribute>
+<setattribute xpath = "recipes/recipe[@name='meleeWpnSledgeT1IronSledgehammer']" name="tags">workbenchCrafting</setattribute>
+<!-- <setattribute xpath = "recipes/recipe[@name='meleeToolSalvageT1Wrench']" name="craft_area">workbench</setattribute>-->
+<setattribute xpath = "recipes/recipe[@name='meleeToolSalvageT1Wrench']" name="tags">workbenchCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='meleeWpnKnucklesT1IronKnuckles']" name="craft_area">workbench</setattribute>
+<setattribute xpath = "recipes/recipe[@name='meleeWpnKnucklesT1IronKnuckles']" name="tags">workbenchCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='armorPrimitiveHelmet']" name="tags">packMuleCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='armorPrimitiveOutfit']" name="tags">packMuleCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='armorPrimitiveGloves']" name="tags">packMuleCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='armorPrimitiveBoots']" name="tags">packMuleCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='plantedAloe1']" name="tags">packMuleCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='plantedBlueberry1']" name="tags">packMuleCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='plantedChrysanthemum1']" name="tags">packMuleCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='plantedCoffee1']" name="tags">packMuleCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='plantedCorn1']" name="tags">packMuleCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='plantedCotton1']" name="tags">packMuleCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='plantedGoldenrod1']" name="tags">packMuleCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='plantedHop1']" name="tags">packMuleCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='plantedMushroom1']" name="tags">packMuleCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='plantedPotato1']" name="tags">packMuleCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='plantedYucca1']" name="tags">packMuleCrafting</setattribute>
+<setattribute xpath = "recipes/recipe[@name='plantedPumpkin1']" name="tags">packMuleCrafting</setattribute>
+
+</configs>
