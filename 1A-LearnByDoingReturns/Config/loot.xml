@@ -288,7 +288,7 @@
 	<item name="athleticsSkillMagazine" count="1"/>
 	<item name="scavengingSkillMagazine" count="1"/>
 </set>
-<setattribute xpath ="lootcontainers/lootgroup[@name='groupQuestRewardSkillMagazinesAll01']" name="count">1</setattribute>>
+<setattribute xpath ="lootcontainers/lootgroup[@name='groupQuestRewardSkillMagazinesAll01']" name="count">1</setattribute>
 
 <!--challenge rewards-->
 <set xpath ="lootcontainers/lootgroup[@name='groupChallengeRewardSkillMagazinesAll01']">
